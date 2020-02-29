@@ -70,7 +70,7 @@
           </section>
       </div>
       </article>
-      {% if COMMENTO_ENABLED and SITEURL and article.status != "draft" %}
+      {% if COMMENTO_ENABLED and SITEURL and page.status != "draft" %}
       {% include 'partials/commento.js' %}
       <noscript>Please enable JavaScript to view the comments.</noscript>
       {% endif %}
