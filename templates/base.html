@@ -121,6 +121,8 @@
           <span class="credits-theme">{{left}}</span>
           <span class="credits-software">{{right}}</span>
           {% endif %}
+
+          {% include 'partials/commento.js' %}
         </section>
       </div>
     </footer>
@@ -142,6 +144,5 @@
   {% endif %}
   {% include 'partials/analytics.js' %}
   {% include 'partials/disqus.js' %}
-  {% include 'partials/commento.js' %}
 </body>
 </html>
